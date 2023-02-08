@@ -105,22 +105,3 @@ function displayWinner(dice) {
   document.querySelector("h1").innerText = "Dice Player "+ dice.id + " is the Winner!";
   document.getElementById("rematch").classList.remove("hidden");
 }
-// attempt at custom names insert and winner 
-//var player1 = "Player one";
-//var player2 = "Player two";
-
-//function editNames {
-    //player1 = prompt("Change Player1 name");
-    //player2 = prompt("Change player2 name");
-
-   //document.querySelector("h.player1").innerHTML = Player one 
-   //}
-
-   /////HTML BUTTON 
-
-    //<div class="container bottom">
-        //<button type="button" class="butn"
-           // onClick="editNames()">
-            //Edit Names
-        //</button>
-    //</div>
